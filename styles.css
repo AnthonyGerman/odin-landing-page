@@ -1,5 +1,6 @@
 * {
     font-family: "roboto", sans-serif;
+    margin: 0;
 }
 
 img {
@@ -9,7 +10,7 @@ img {
 body {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    height: 100vh;
 }
 
 .header {
@@ -50,6 +51,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 0 1 500px;
+    gap: 8px;
 }
 
 button {
@@ -59,4 +61,80 @@ button {
     width: 100px;
     height: 30px;
     border: none;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: center;
+    padding: 24px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding-top: 24px;
+}
+
+.two-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.two-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.two-img {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 200px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.three {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 48px;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.signupbox {
+    background-color: #3882F6;
+    padding: 32px;
+    margin: 24px;
+    display: flex;
+    gap: 48px;
+    border-radius: 5px;
+}
+
+.border-button {
+    border: 2px solid #F9FAF8;
+    align-self: center;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-text > div {
+    font-weight: bold;
+    font-size: 24px;
 }
